@@ -16,8 +16,7 @@ public class Main{
 
         System.out.println("Digite o número da opção desejada:");
         opcao = lerOpcao.nextInt();
-        lerOpcao.nextLine();
-
+       
             switch(opcao){
                 case 1:
                     System.out.println("Digite o valor em graus Celsius:"); // entrada de dados
