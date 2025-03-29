@@ -1,4 +1,4 @@
-public class ConversorTemperatura(){
+public class ConversorTemperatura {
      // características da classe
      
     
