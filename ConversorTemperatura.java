@@ -1,6 +1,5 @@
 public class ConversorTemperatura {
      // características da classe
-     
     
     // funções construtoras
     //public ConversorTemperatura() {}; // construtor padrão
