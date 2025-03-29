@@ -19,11 +19,9 @@ public class Main{
                 case 1:
                     System.out.println("Digite o valor em graus Celsius:"); // entrada de dados
                     converter.celsius(lerOpcao.nextDouble());
-                    lerOpcao.nextLine(); // ler o enter do teclado
-                    
-                    double resultado = converter.conversor();
+                    lerOpcao.nextLine(); // ler o enter do teclado     
                 
-                    System.out.println("Temperatura em Fahrenheit: " + resultado );
+                    System.out.println("Temperatura em Fahrenheit: " + converter.conversor() );
                 break; 
 
                 // case 2:
