@@ -17,7 +17,7 @@ public class ConversorTemperatura {
    public double conversor (int celsius, double ajuste, boolean arredondamento) {   // Celsius para Fahrenheit + ajuste +arredondamento
         double resultado = (celsius * 9.0/5.0) + 32.0 + ajuste;
      // Verifica se o valor deve ser arredondado
-     if (arredondamento = true) {
+     if (arredondamento) {
         resultado = Math.round(resultado); // Arredonda para o inteiro mais próximo
     }
         return resultado;
@@ -26,9 +26,9 @@ public class ConversorTemperatura {
   public double conversor (double fahrenheit, double ajuste, boolean arredondamento) {   // Fahrenheit para Celsius+ ajuste +arredondamento
         double resultado = (fahrenheit - 32.0)/1.8 + ajuste;
      // Verifica se o valor deve ser arredondado
-     if (arredondamento = true) {
+     if (arredondamento) {
         resultado = Math.round(resultado); // Arredonda para o inteiro mais próximo
-    }
+    } 
         return resultado;
   }
    

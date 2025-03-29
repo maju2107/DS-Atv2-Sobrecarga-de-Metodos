@@ -48,10 +48,10 @@ public class Main{
                         resposta = (lerOpcao.nextLine());
                     lerOpcao.nextLine(); // ler o enter do teclado   
                     
-                    if(resposta == "sim"){
+                    if(resposta.equals("sim")){
                         arredondar = true;
                         System.out.println("Temperatura em Fahrenheit, com ajuste de " + ajuste+ " e arredondamento :"+ converter.conversor(valor2,ajuste,arredondar) );
-                    } else {
+                    } else  {
                         arredondar = false;
                         System.out.println("Temperatura em Fahrenheit, com ajuste de " + ajuste+ " :"+ converter.conversor(valor2,ajuste,arredondar) );
                     }
@@ -70,7 +70,7 @@ public class Main{
                         resposta = (lerOpcao.nextLine());
                     lerOpcao.nextLine(); // ler o enter do teclado   
                     
-                    if(resposta == "sim"){
+                    if(resposta.equals("sim")){
                         arredondar = true;
                         System.out.println("Temperatura em Celsius, com ajuste de " + ajuste+ " e arredondamento :"+ converter.conversor(valor3,ajuste,arredondar) );
                     } else {
