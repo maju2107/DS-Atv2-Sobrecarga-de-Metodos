@@ -3,7 +3,7 @@ public class ConversorTemperatura {
      
     
     // funções construtoras
-    public ConversorTemperatura() {}; // construtor padrão
+    //public ConversorTemperatura() {}; // construtor padrão
 
 
     // métodos/funções
